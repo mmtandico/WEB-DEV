@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student Feedback Form</h1>
+
+    <form>
+        <input type="text" placeholder="Enter your name"><br><br>
+
+        <input type="email" placeholder="Enter your email"><br><br>
+
+        <select>
+            <option>Select a subject</option>
+            <option>Mathematics</option>
+            <option>Science</option>
+            <option>English</option>
+            <option>History</option>
+            <option>Geography</option>
+            <option>Computer</option>
+            <option>Biology</option>
+            <option>Art</option>
+            <option>Music</option>
+            <option>PE</option>
+        </select><br><br>
+
+        <textarea rows="6" cols="50" placeholder="Write your feedback here..."></textarea>
+
+        <p>Satisfaction Level:</p>
+        <input type="radio" id="excellent" name="satisfaction" value="excellent">
+        <label for="excellent">Excellent</label>
+
+        <input type="radio" id="good" name="satisfaction" value="good">
+        <label for="good">Good</label>
+
+        <input type="radio" id="fair" name="satisfaction" value="fair">
+        <label for="fair">Fair</label>
+
+        <input type="radio" id="poor" name="satisfaction" value="poor">
+        <label for="poor">Poor</label><br><br>
+
+        <button type="submit">Submit Feedback</button>
+    </form>
+</body>
+</html>
